@@ -3,18 +3,18 @@
 
 int main(){
     int  bs;
-    float da,hra,gs;
+    int da,hra,gs;
     printf("Enter the basic salary: \n");
     scanf("%d", &bs);     //taking input
 
     //calculation starts.
 
-    da = 0.4*bs;
-    hra = 0.2*bs;
+    da = 4/10*bs;
+    hra = 2/10*bs;
 
     gs= da+hra+bs;
     //printing salary 
-    printf("The final salary is: %f", gs);
+    printf("The final salary is: %d", gs);
 
     return 0;
 }
